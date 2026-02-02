@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: penpapper_backend
+    restart: unless-stopped
+    ports:
+      - "9091:9091"
+    env_file:
+      - .env

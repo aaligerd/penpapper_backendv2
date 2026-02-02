@@ -1,0 +1,29 @@
+{
+  "name": "penpapper_admin_backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "eisamay",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.974.0",
+    "@aws-sdk/s3-request-presigner": "^3.974.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "pg": "^8.17.2",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.8",
+    "nodemon": "^3.1.11"
+  }
+}
