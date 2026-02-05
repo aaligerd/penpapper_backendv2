@@ -21,7 +21,7 @@ pgClient.connect()
 
 app.use('/s3/api/v1/asset',require('./router/imageRouter'));
 app.use('/s3/api/v1/author',require('./router/authorRouter'));
-
+app.use('/s3/api/v1/section',require('./router/sectionRouter'))
 
 app.listen(port,()=>{
 console.log("Server running on PORT: "+port)
